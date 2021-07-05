@@ -58,7 +58,7 @@ button:hover, a:hover {
 }
 
 body{
-    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url(images/eberhard-grossgasteiger-4etUEweU4WI-unsplash.jpg) ;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url(eberhard-grossgasteiger-4etUEweU4WI-unsplash.jpg) ;
     width: 100%; height: 100vh;
     background-size: cover;
     background-attachment: fixed;
