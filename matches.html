@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <title>Football Page</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/football.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="championship.html">CHAMPIONSHIPS</a>
+                        <ul class="dropdown">
+                            <li><a href="uefa.html">UEFA</a></li>
+                            <li><a href="europa.html">EUROPA LEAGUE</a></li>
+                            <li><a href="fifa.html">FIFA</a></li>
+                          </ul>
+                    </li>
+                    <li><a href="#">STADIUMS ▼</a>
+                        <ul class="dropdown">
+                            <li><a href="wembley.html">Wembley Stadium</a></li>
+                            <li><a href="estadio.html">Estadio Da Luz</a></li>
+                          </ul>
+                    </li>
+                    <li ><a href="matches.html">Matches & Channels </a >
+                        <ul class="dropdown" >
+                            <li><a href="matches.html">Matches</a></li>
+                            <li><a href="channels.html">Channels</a></li>
+                          </ul>
+                    </li >
+                    <li><a href="hobby.html">Hobbies</a></li>
+                    <li><a href="othersports.html">othersports</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>MATCHES</h1>
+    </section>
+
+    
+    <!-- acadmic Page -->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+               
+                <h2 style="text-align: center;">UEFA MATCHES THESE DAYS</h2>
+                <hr>
+
+                <h3 style="text-align: left;"><i class="fa fa-circle-o" aria-hidden="true"></i> England vs Croatia</h3>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolor libero quia voluptate id voluptas eius animi beatae ducimus est officia sequi totam quasi aperiam placeat ipsum, repudiandae nam at!</p>
+                <br>    
+                <br>    
+               
+                
+                <br>
+                <br>
+                <h3 style="text-align: left;"> <i class="fa fa-circle-o" aria-hidden="true"></i>USA vs Mexico</h3>
+                 <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi impedit iusto temporibus velit itaque dolor enim deserunt maxime cupiditate necessitatibus distinctio fugiat quidem voluptatem minima tempora voluptates amet et numquam ipsam commodi, dolorem earum incidunt dolore? Officia doloribus, aut mollitia architecto ea ex at neque culpa, voluptatum et beatae omnis.</p>
+               <br>
+               <br>
+              
+               <h3 style="text-align: left;"> <i class="fa fa-circle-o" aria-hidden="true"></i>     Spain vs Italy</h3>
+               <br>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quibusdam ducimus voluptatum rerum voluptatibus ipsam voluptates assumenda, qui quidem quisquam ipsum facilis repellat eum fugit aliquid neque consequuntur sit sint. Laudantium, provident fugiat delectus id totam adipisci, nobis fugit accusamus quae voluptatem ipsum iure, sapiente magnam possimus expedita iste temporibus?</p>
+               <br>
+               <br>
+               
+            </div>
+
+            <div class="blog-right">
+                <h3>Other Sports are</h3>
+                <div>
+                    <span>Cricket</span>
+                   
+                </div>
+                <div>
+                    <span>Basketball</span>
+                   
+                </div>
+                <div>
+                    <span>Baseball</span>
+                   
+                </div>
+                <div>
+                    <span>Volleyball</span>
+                  
+                </div>
+                <div>
+                    <span>Tennis</span>
+                 
+                </div>
+                <div>
+                    <span>Badminton</span>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    
+    <section class="footer">
+        <h4>Follow Me</h4>
+        
+        <div class="icons">
+            <i class="fa fa-facebook" ></i>
+            <i class="fa fa-twitter" ></i>
+            <i class="fa fa-instagram" ></i>
+            <i class="fa fa-linkedin" ></i>
+        </div>
+        <a href="biodata.html"><p>Made with <i class="fa fa-heart-o"> </i> by Hari</a></p>
+    </section>
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+        var navLinks =document.getElementById("navLinks");
+        
+        function showMenu()
+        {
+            navLinks.style.right="0";
+        }
+
+        function hideMenu()
+        {
+            navLinks.style.right="-100px";
+        }
+    </script>
+</body>
+</html>
